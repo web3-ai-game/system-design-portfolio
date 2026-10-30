@@ -120,13 +120,12 @@ The code, the glossary, and the chat exports stay private.
 
 ## Public code
 
-These four repositories are the ones I pin. They are the defensive panel, the document pipeline, the distillation pipeline, and the eldercare bots. Architecture above is the private production work, described without the tree.
+The three systems above are exported without deploy scripts, origin addresses, or secrets. The private repos are unchanged.
 
 | Repo | What it is |
 |---|---|
-| [vps-guard](https://github.com/web3-ai-game/vps-guard) | auth.log and nginx tailing, UFW auto-ban, Telegram alerts, PIN-gated ops panel |
-| [ebook-to-md](https://github.com/web3-ai-game/ebook-to-md) | Ebook to Markdown with OCR, resume, and dedup. Repo notes 5,153 documents processed |
-| [chat-distill-pipeline](https://github.com/web3-ai-game/chat-distill-pipeline) | Ingest, low-temperature distill, redact, export JSONL for a vector store |
-| [eldercare-ai-bot](https://github.com/web3-ai-game/eldercare-ai-bot) | Two Telegram bots, shared memory, multi-model cross-check |
+| [multi-llm-gateway](https://github.com/web3-ai-game/multi-llm-gateway) | The Go gateway: provider registry, shared SSE, tiered quotas, admin panel |
+| [grok-council](https://github.com/web3-ai-game/grok-council) | The client: council gate, fan-out, card grid, SSE |
+| [cursor-xai-gateway](https://github.com/web3-ai-game/cursor-xai-gateway) | LiteLLM aliases and the usage logger. No origin config |
 
-Also public, not pinned: [NYCKING](https://github.com/web3-ai-game/NYCKING), a translation PWA. Keys stay on the API server.
+Also public: [vps-guard](https://github.com/web3-ai-game/vps-guard), [ebook-to-md](https://github.com/web3-ai-game/ebook-to-md), [chat-distill-pipeline](https://github.com/web3-ai-game/chat-distill-pipeline), [eldercare-ai-bot](https://github.com/web3-ai-game/eldercare-ai-bot), [NYCKING](https://github.com/web3-ai-game/NYCKING).
