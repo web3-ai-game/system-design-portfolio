@@ -128,4 +128,4 @@ The three systems above are exported without deploy scripts, origin addresses, o
 | [grok-council](https://github.com/web3-ai-game/grok-council) | The client: council gate, fan-out, card grid, SSE |
 | [cursor-xai-gateway](https://github.com/web3-ai-game/cursor-xai-gateway) | LiteLLM aliases and the usage logger. No origin config |
 
-Also public: [vps-guard](https://github.com/web3-ai-game/vps-guard), [ebook-to-md](https://github.com/web3-ai-game/ebook-to-md), [chat-distill-pipeline](https://github.com/web3-ai-game/chat-distill-pipeline), [eldercare-ai-bot](https://github.com/web3-ai-game/eldercare-ai-bot), [NYCKING](https://github.com/web3-ai-game/NYCKING).
+Also public: [vps-blue-panel](https://github.com/web3-ai-game/vps-blue-panel), a scored hardening panel with SSH auto-rollback, and [chain-query-proxy](https://github.com/web3-ai-game/chain-query-proxy), a stdlib Go lookup proxy.
